@@ -1,0 +1,79 @@
+body {
+    background-image: url(img/pattern.jpg);
+    background-attachment: fixed;
+}
+
+div {
+    width:1024px;
+	margin:auto;
+    background-color: whitesmoke;
+}
+
+h1 { 
+    font-family: georgia,serif, "time new roman";
+}
+
+h3{
+    margin-left: 20px;
+}
+
+p {
+    font-family: sans-serif, arial, verdana;
+    margin-left: 20px;
+}
+
+li{
+    list-style: none;
+}
+
+img{
+    display:block;
+    margin:auto;
+}
+
+a{
+    text-decoration: none;
+    color: black;
+}
+
+a:hover{
+    color:mediumpurple;
+}
+
+#menu{
+    background-image: url(img/pattern.jpg);
+    background-repeat: repeat-x;
+    padding: 20px;
+}
+#menu li {
+    display: inline;
+    margin: 10px;
+    
+}
+
+#menu a {
+    color: white;
+    font-size: 18px;
+}
+#curiosidades, #fuentes{
+    background-color: #d5d6d6;
+    padding-top: 20px;
+    margin-top: 10px;
+    padding-bottom: 20px;
+}
+
+#footer{
+    background-color: black;
+}
+
+#footer li, #footer a{
+    color: white;
+}
+
+#footer ul{
+    margin: 0px;
+}
+
+#intro h2, #curiosidades h2, #verdades h2, #fuentes h2{
+    text-align: center;
+}
