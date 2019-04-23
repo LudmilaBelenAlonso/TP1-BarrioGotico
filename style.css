@@ -11,6 +11,7 @@ div {
 
 h1 { 
     font-family: georgia,serif, "time new roman";
+    margin-left: 20px;
 }
 
 h3{
@@ -18,7 +19,7 @@ h3{
 }
 
 p {
-    font-family: sans-serif, arial, verdana;
+    font-family: arial, verdana, sans-serif ;
     margin-left: 20px;
 }
 
@@ -53,8 +54,13 @@ a:hover{
 
 #menu a {
     color: white;
-    font-size: 18px;
+    font-size: 25px;
 }
+
+#menu a:hover {
+    text-decoration: underline;
+}
+
 #curiosidades, #fuentes{
     background-color: #d5d6d6;
     padding-top: 20px;
