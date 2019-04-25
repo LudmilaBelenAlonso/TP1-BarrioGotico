@@ -1,12 +1,19 @@
 body {
     background-image: url(img/pattern.jpg);
     background-attachment: fixed;
+    display: block;
+    margin-top:0;
+    margin-bottom: 0;
 }
 
 div {
     width:1024px;
 	margin:auto;
     background-color: whitesmoke;
+}
+
+#intro h2, #curiosidades h2, #verdades h2, #fuentes h2{
+    text-align: center;
 }
 
 h1 { 
@@ -42,14 +49,16 @@ a:hover{
 }
 
 #menu{
-    background-image: url(img/pattern.jpg);
-    background-repeat: repeat-x;
+    /*background-image: url(img/pattern.jpg);
+    background-repeat: repeat-x;*/
+    background-color: black;
     padding: 20px;
+    margin-top: 0;
 }
+
 #menu li {
     display: inline;
-    margin: 10px;
-    
+    margin-right:10px; 
 }
 
 #menu a {
@@ -72,7 +81,7 @@ a:hover{
     background-color: black;
 }
 
-#footer li, #footer a{
+#footer li, #footer a, #footer h2{
     color: white;
 }
 
@@ -80,6 +89,10 @@ a:hover{
     margin: 0px;
 }
 
-#intro h2, #curiosidades h2, #verdades h2, #fuentes h2{
-    text-align: center;
+#footer h2{
+    margin-top: 0;
+    margin-left: 20px;
+    
 }
+
+
